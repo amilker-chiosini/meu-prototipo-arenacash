@@ -12,10 +12,10 @@
 
   <style>
     :root {
-      --blue-500: #1652f0;
-      --blue-700: #0a2a9c;
-      --blue-900: #061b63;
-      --tint:     #eaf0ff;
+      --green-500: #16c47f;
+      --purple-700: #7c3aed;
+      --purple-900: #2e1065;
+      --tint:     #ede9fe;
       --white:    #ffffff;
 
       --ease: cubic-bezier(.2, .7, .2, 1);
@@ -27,7 +27,7 @@
       height: 100%;
       font-family: 'Inter', system-ui, -apple-system, sans-serif;
       color: #0b1220;
-      background: #0d1330;              /* backdrop neutro atrás dos slides */
+      background: #150d30;              /* backdrop neutro atrás dos slides */
       -webkit-font-smoothing: antialiased;
     }
 
@@ -47,7 +47,7 @@
       aspect-ratio: 16 / 9;
       border-radius: 24px;
       overflow: hidden;
-      box-shadow: 0 30px 80px -30px rgba(6, 27, 99, .7);
+      box-shadow: 0 30px 80px -30px rgba(46, 16, 101, .7);
     }
 
     /* --- Slide 1: capa da campanha --- */
@@ -58,7 +58,7 @@
       padding: clamp(28px, 4.4vw, 64px);
       color: var(--white);
       background:
-        radial-gradient(120% 120% at 85% 15%, var(--blue-500) 0%, var(--blue-700) 48%, var(--blue-900) 100%);
+        radial-gradient(120% 120% at 85% 15%, var(--green-500) 0%, var(--purple-700) 48%, var(--purple-900) 100%);
     }
 
     /* Motivo de "moeda" — dá profundidade sem poluir */
@@ -97,7 +97,7 @@
       height: 1.6em;
       border-radius: 9px;
       background: var(--white);
-      color: var(--blue-700);
+      color: var(--purple-700);
       font-size: .62em;
       font-weight: 700;
     }
@@ -161,7 +161,7 @@
       padding: 16px 30px;
       border-radius: 14px;
       background: var(--white);
-      color: var(--blue-700);
+      color: var(--purple-700);
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 600;
       font-size: clamp(15px, 1.5vw, 19px);
